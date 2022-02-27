@@ -1,0 +1,7 @@
+marka = "Honda"
+moc = 102
+pojemnosc_skokowa = 1084
+marka_up = marka.upper()
+
+
+print("Motor {0}" " ma moc {1} KM" " i pojemnosc {2} cm3".format(marka, moc,pojemnosc_skokowa))
