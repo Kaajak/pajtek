@@ -1,0 +1,8 @@
+koszyk_produkty = ["mleko", "ciastka", "sok"]
+#koszyk_ilosc = [1, 1, 2]
+koszyk_cena = [4.0, 3.0, 4.5]
+koszyk_wartosc = 0
+for prod_cena in koszyk_cena:
+koszyk_wartosc = koszyk_wartosc + prod_cena
+print(koszyk_wartosc)
+print(sum(koszyk_cena))
