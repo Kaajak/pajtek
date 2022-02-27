@@ -1,0 +1,13 @@
+produkty = {"Legioni516GB": "laptop",
+ "TABs5e 16 GB": "tablet",
+ "S20": "telefon"}
+igla = "s21"
+if igla in produkty:
+ print("Znalazlem {0}".format(igla))
+else:
+ print("Brak w magazynie {0}".format(igla))
+igla2 = "S20"
+if igla2 in produkty:
+ print("Znalazlem {0}".format(igla2))
+else:
+ print("Brak w magazynie {0}".format(igla2))
