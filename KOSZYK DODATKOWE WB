@@ -1,0 +1,13 @@
+mleko = {'nazwa': 'biale', 'cena': 3.9, 'litry': 20}
+czekolada = {'nazwa': 'wedel', 'cena': 10.9}
+pomarancze = {'nazwa': 'Pom Hiszp', 'cena': 9.9}
+koszyk = [mleko,
+          czekolada,
+          pomarancze]
+suma = 0
+for prod in koszyk:
+    print(prod['nazwa'])
+    if 'litry' in prod:
+        print("litry {0}".format(prod['litry']))
+    suma = suma + prod['cena']
+print("Wartosc koszyka to {0}".format(suma))
