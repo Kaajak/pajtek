@@ -1,0 +1,7 @@
+samochody = ['kia', 'tesla', 'star']
+ilosc = [3, 1, 0]
+litrarz = [1.2, 2.3, 9.0]
+# 0 1 2
+for idx in range(len(samochody)):
+    print("Marka: {0} Ilosc {1} litrarz {2}".format(
+        samochody[idx], ilosc[idx], litrarz[idx]))
