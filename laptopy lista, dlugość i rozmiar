@@ -1,0 +1,13 @@
+laptopy = ["lenovo", "dell", "asus", "hp"]
+#print(laptopy[0])
+#print(laptopy[1])
+#print(laptopy[2])
+#print(laptopy[3])
+
+print("=== 1 =====")
+for laptop in laptopy:
+    print (laptop)
+
+print("=== 2 =====")
+print("len: {0}".format(len(laptopy)))
+print("range: {0}".format(range(len(laptopy))))
