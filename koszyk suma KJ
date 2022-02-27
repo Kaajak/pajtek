@@ -1,0 +1,12 @@
+produkty = ["chleb","maslo","szynka","ser","pomidor"]
+ceny = [5.0,6.5,8.2,7,4.8]
+#produkty_ilosc = [1, 1, 3, 2 ,5]
+
+wartosc_koszyk = 0
+
+for prod_cena in ceny:
+    wartosc_koszyk = wartosc_koszyk + prod_cena
+
+print(wartosc_koszyk)
+#inne rozwiazanie
+print(sum(ceny))
